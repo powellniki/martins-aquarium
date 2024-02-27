@@ -1,5 +1,5 @@
 // Import the function that returns a copy of the fish array
-import { getFish } from './database.js'
+import { getFish } from '../../database.js'
 
 
 export const FishList = () => {
