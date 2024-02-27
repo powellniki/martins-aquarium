@@ -45,7 +45,7 @@ export const FishList = () => {
     // Create HTML representations of each fish here
         for (const fish of sortedFish[fishType]) {
             htmlString += `<section class="fish-card">
-                <div class="fish-image"><img  class="fish_image" src="${fish.image}" style="border-radius: 100px"/></div>
+                <div class="div_fish-image"><img  class="fish_image" src="${fish.image}" style="border-radius: 100px"/></div>
                 <section class="card-text">
                     <div class="fish__name" style="color: blue">${fish.name}</div>
                     <div class="fish__species">Species: ${fish.species}</div>

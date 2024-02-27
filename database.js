@@ -133,3 +133,6 @@ const database = {
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
 }
+export const getTips = () => {
+    return database.careTips.map(careTips => ({...careTips}))
+}
