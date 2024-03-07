@@ -38,13 +38,13 @@ export const FishList = () => {
 
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="fishList">'
+    let htmlString = `<article class="fish-card">`
 
     for ( const fishType in sortedFish ) {
 
     // Create HTML representations of each fish here
         for (const fish of sortedFish[fishType]) {
-            htmlString += `<section class="fish-card">
+            htmlString += `
                 <div class="div_fish-image"><img  class="fish_image" src="${fish.image}" style="border-radius: 100px"/></div>
                 <section class="card-text">
                     <div class="fish__name" style="color: blue">${fish.name}</div>
@@ -53,7 +53,7 @@ export const FishList = () => {
                     <div class="fish__location">Harvest Location: ${fish.location}</div>
                     <div class="fish__diet">Diet: ${fish.food}</div>
                 </section>
-            </section>
+            
             `
         }
         htmlString += `</article>`
