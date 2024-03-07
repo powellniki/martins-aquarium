@@ -1,0 +1,29 @@
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_fish-list {
+    background-color: aquamarine;
+    width: 79%;
+    margin-right: 1%;
+}
+
+
+.aside_care-tips {
+    background-color: blanchedalmond;
+    width: 20%;
+}
+
+.div_quote-section {
+    background-color: brown;
+}
+
+.div_locations-section {
+    background-color: blueviolet;
+}
+
+.fish_image {
+    width: 150px;
+    height: 150px
+}
